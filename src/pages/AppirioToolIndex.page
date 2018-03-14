@@ -1,0 +1,13 @@
+<apex:page controller="AppirioToolIndexController" showheader="false">
+    <apex:composition template="AppirioTemplate">
+        <apex:define name="body">
+        <c:AppirioNavBar ></c:AppirioNavBar>
+            <apex:sectionHeader title="Appirio Toolkit Index" subtitle="Delightful"/>
+                <ul>
+                    <apex:repeat value="{!devTools}" var="tool">
+                        <li><a href="/apex/{!tool.Page_Name__c}">{!tool.name}</a></li>
+                    </apex:repeat>
+                </ul>
+        </apex:define>
+    </apex:composition>
+</apex:page>

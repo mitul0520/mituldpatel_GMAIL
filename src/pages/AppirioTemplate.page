@@ -1,0 +1,15 @@
+<!-- Template page -->
+<apex:page showHeader="false">
+
+    <link href="{!URLFOR($Resource.bootstrap, '/css/bootstrap.min.css')}" rel="stylesheet" media="screen"/>
+    
+    <apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Bootstrap, '/js/bootstrap.min.js')}"/>
+    
+    <apex:insert name="header"/><br/> 
+    <div>
+        <apex:insert name="body"/><br/> 
+    </div>
+    
+    
+</apex:page>

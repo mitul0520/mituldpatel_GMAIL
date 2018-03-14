@@ -1,0 +1,29 @@
+<apex:page Controller="TimeTimeZone" docType="html-5.0">
+  <!-- Checking time with time zone -->
+  <h1>Time with Time Zone</h1>
+  <br></br>
+  
+<apex:form >
+    <apex:outputLabel >User Time Zone:</apex:outputLabel>
+    <apex:outputText value="{!userTimezone}"></apex:outputText>
+     <br></br>
+    <h1><apex:outputLabel for="StartDate">Start Date</apex:outputLabel></h1>
+    <apex:input type="date" value="{!dt}"/> 
+    
+    <apex:outputLabel >Hour</apex:outputLabel>
+    <apex:inputText size="3" value="{!inHour}"/>
+    <br></br>
+    <apex:commandButton action="{!getTime}" value="Get Time"/>
+    <br></br>
+    <h1><apex:outputLabel >Out Date: </apex:outputLabel></h1>
+    <apex:outputText value="{!outDate}"/>
+    <br></br>
+    <h1><apex:outputLabel >Out Date String: </apex:outputLabel></h1>
+    <apex:outputText value="{!outDateString}"/>
+    <br></br>
+    <h1><apex:outputLabel >Out Date String2: </apex:outputLabel></h1>
+    <apex:outputText value="{!outDateString2}"/>
+    <br></br>
+</apex:form>
+
+</apex:page>

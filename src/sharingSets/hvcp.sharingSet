@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Read</accessLevel>
+        <object>Candidate__c</object>
+        <objectField>Owner.Account</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
+    <name>hvcp</name>
+    <profiles>Customer Community User</profiles>
+    <profiles>HighVolumePortal</profiles>
+    <profiles>PlatformPortal</profiles>
+</SharingSet>

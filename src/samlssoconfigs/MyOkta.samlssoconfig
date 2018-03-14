@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>kxxoa9tmYZDMZBWUBVIB</issuer>
+    <loginUrl>https://outlook_mituldpatel.okta.com/app/salesforce/kxxoa9tmYZDMZBWUBVIB/sso/saml</loginUrl>
+    <logoutUrl>https://outlook_mituldpatel.okta.com</logoutUrl>
+    <name>MyOkta</name>
+    <oauthTokenEndpoint>https://mituldapatel-dev-ed.my.salesforce.com/services/oauth2/token?so=00Di0000000ZzOs</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <salesforceLoginUrl>https://mituldapatel-dev-ed.my.salesforce.com?so=00Di0000000ZzOs</salesforceLoginUrl>
+    <samlEntityId>https://saml.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIICsTCCAhqgAwIBAgIGAUiA+uZKMA0GCSqGSIb3DQEBBQUAMIGbMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxHDAaBgNVBAMME291dGxvb2tfbWl0dWxkcGF0ZWwxHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMTQwOTE3MDAxODU5WhcNNDQwOTE3MDAxOTU5WjCBmzELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRwwGgYDVQQDDBNvdXRsb29rX21pdHVsZHBhdGVsMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCN+0Ch7HvcIN+f5M6CaArIGcNn/lwlqnaVii5I1row4baows8VFnEmwjvnIuiNX9UonLi5A3qcTz7AcIkzYMrFONjYbV2JWHIKxdsadcjdk2kj8qldFYjjbxukBLRjmxN1QTzKzvEaJK8FAGydtovGNm/NnHMvfLDOSDu/74NX3QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGVxiQHtIzJHJfAM1LMdAgYVCFM8LReR0CpxhLpoAhRBqMhWqLIVUL8P8JsaLhy8VuRQVRoAcs2E1VanHHBlzATrXHjExHxWijIAnzJiSXz4e4J86pKfM1YsMSvGl2x/N5aAVcgF+JjZqHm5FDMixSOwbyhWbTFQr1hip7p92w/3</validationCert>
+</SamlSsoConfig>

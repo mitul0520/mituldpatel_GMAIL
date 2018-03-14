@@ -1,0 +1,10 @@
+<aura:component controller="CampingListController">
+    <!-- https://trailhead.salesforce.com/modules/lex_dev_lc_basics/units/lex_dev_lc_basics_events -->   
+    
+    <!-- the Apex server side controller -->
+    <aura:attribute name="items" type="Camping_Item__c[]"/>
+    
+    <c:campingHeader />
+    <c:campingList items="{!v.items}"/>
+    
+</aura:component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engineering Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engineering Cases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Engineering Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- JIRA Key --></label>
+        <name>JIRA_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- JIRA Status --></label>
+        <name>JIRA_Status__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

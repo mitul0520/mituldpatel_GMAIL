@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Make_Event_Public</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Make Event Public</label>
+        <sharedTo>
+            <group>All_CBS_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Group_Name__c</field>
+            <operation>equals</operation>
+            <value>Public</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

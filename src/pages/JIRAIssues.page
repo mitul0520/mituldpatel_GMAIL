@@ -1,0 +1,16 @@
+<apex:page standardController="Case">
+
+<!--
+<apex:pageMessage severity="debug" 
+   strength="1" 
+   summary="Hello {!$CurrentPage.parameters.id}" 
+   />
+   -->
+
+<apex:iframe id="jiraWindow" src="http://54.186.225.221:8080/plugins/servlet/customware/connector/issue/1/Case/fetch.action?id={!$CurrentPage.parameters.id}">
+</apex:iframe>
+<!-- 
+<apex:iframe id="sfWindow" src="http://www.servicerocket.com"></apex:iframe>
+-->
+
+</apex:page>

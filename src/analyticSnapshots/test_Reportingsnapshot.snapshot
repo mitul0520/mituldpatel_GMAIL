@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>test Reportingsnapshot</name>
+    <runningUser>mituldpatel@gmail.com</runningUser>
+    <sourceReport>unfiled$public/Cases_by_Status</sourceReport>
+    <targetObject>Notification__c</targetObject>
+</AnalyticSnapshot>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Premium Account</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>USA</parentTerritory>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Partner_Referred_Accounts</ruleName>
+    </ruleAssociations>
+    <territory2Type>Account_Type</territory2Type>
+</Territory2>

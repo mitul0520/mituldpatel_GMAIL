@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mituldpatel@gmail.com</contactEmail>
+    <contactPhone>2812243360</contactPhone>
+    <label>Chrome_Test</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost/test</callbackUrl>
+        <consumerKey>3MVG9A2kN3Bn17hvYPQEO4VwECkGpojGeErEXnJTWftPGdmnEt6H9mvLIhAD2IrIPv2ZTx6z49CO.9QADPYg5</consumerKey>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+</ConnectedApp>

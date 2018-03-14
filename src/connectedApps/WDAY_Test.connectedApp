@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mituldpatel@gmail.com</contactEmail>
+    <label>WDAY_Test</label>
+    <oauthConfig>
+        <callbackUrl>https://mituldapatel-dev-ed.my.salesforce.com</callbackUrl>
+        <consumerKey>3MVG9A2kN3Bn17hvYPQEO4VwECgwDms_4hrkltQ1R9_5Ml8iOxVFG4Fwv7Z4dwFujTTW9UxtEOX3QoBRRnU_3</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+</ConnectedApp>

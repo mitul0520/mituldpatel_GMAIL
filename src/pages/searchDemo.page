@@ -1,0 +1,22 @@
+<apex:page Controller="GPSearchDemo">
+
+<apex:form >
+  <h1>Hello {!$User.FirstName}!!!</h1>
+  <br></br>
+  <br></br>
+  <apex:outputText ><h1>Endpoint: </h1></apex:OutputText>
+  <apex:inputText size="100" value="{!endpoint}"/>
+    <br></br>
+  <apex:outputText ><h1>Query String: </h1></apex:OutputText>
+  <apex:inputText size="40" value="{!queryString}"/>
+  
+  <apex:commandButton action="{!search}" value="search"/>
+           <br></br>
+  <apex:outputText ><h1>Response Time: </h1></apex:OutputText>
+  <apex:outputText value="{!responseTime}"></apex:OutputText>
+   <br></br>
+  <apex:outputText ><h1>Result: </h1></apex:OutputText>
+  <apex:outputText value="{!queryResult}"></apex:OutputText>
+</apex:form>
+
+</apex:page>

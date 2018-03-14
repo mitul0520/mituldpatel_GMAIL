@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Competitor Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Competitor Products</value>
+    </caseValues>
+    <fields>
+        <help><!-- Competitor Company --></help>
+        <label><!-- Competitor Company --></label>
+        <name>Competitor_Company__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
